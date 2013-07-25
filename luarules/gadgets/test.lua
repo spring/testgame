@@ -13,6 +13,11 @@ end
 if not gadgetHandler:IsSyncedCode() then
     return false
 end
+
 function gadget:GameStart()
-	Spring.echo("test")
+	--Spring.echo("test")
+end
+
+function gadget:GameFrame(n)
+	Spring.SendCommands("quit")
 end
