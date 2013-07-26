@@ -34,7 +34,7 @@ end
 
 
 function widget:Initialize()
-	Spring.Echo("test")
+--	Spring.Echo("test")
 	Spring.Echo(math.bit_inv(0))
 --	test_bitopts()
 end

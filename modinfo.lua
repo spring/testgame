@@ -6,7 +6,6 @@ local modinfo = {
 	url =	"http://github.com/spring/testgame",
 	modtype = 1,
 	depend = {
-		"Spring content v1",
 		"Spring Cursors",
 	},
 }
